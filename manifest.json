@@ -1,0 +1,13 @@
+{
+  "name": "Link follower",
+  "description": "Shows some of the features of the Context Menus API",
+  "version": "0.1",
+  "permissions": ["contextMenus",
+  				  "http://router.asus.com:8081/",
+  				  "http://localhost:8082/"
+  				],
+  "background": {
+    "scripts": ["context.js"]
+  },
+  "manifest_version": 2
+}
